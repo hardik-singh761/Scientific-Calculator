@@ -1,0 +1,127 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: black;
+}
+
+.container {
+    background-color: black;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 15px -1px white;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.m-p {
+    margin: 5px;
+    padding: 1.5rem;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-between;
+    border: 1px black solid;
+    border-radius: 20%;
+    font-size: 1rem;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+    box-shadow: 2px
+}
+
+#zero {
+    padding: 1.5rem 4rem;
+    border-radius: 20px;
+}
+
+#input {
+    margin: auto;
+    padding: 1rem 1.5rem;
+    border-radius: 30px;
+    font-size: x-large;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    color: greenyellow;
+}
+
+.row-1 {
+    margin: 4px;
+}
+
+#equals {
+    color: white;
+    background-color: red;
+}
+
+#equals:hover {
+    box-shadow: 0.4em 0.4em 0.5em -0.4em red;
+    transform: translateY(-0.15em);
+    transition: all .1s ease;
+    cursor: pointer;
+}
+
+.s {
+    background-color: orange;
+}
+
+.n {
+    background-color: darkgreen;
+}
+
+.t {
+    background-color: darkblue;
+}
+
+.s:hover {
+    box-shadow: 0.4em 0.4em 0.5em -0.4em orange;
+    transform: translateY(-0.15em);
+    transition: all .1s ease;
+    cursor: pointer;
+}
+
+.n:hover {
+    box-shadow: 0.4em 0.4em 0.5em -0.4em darkcyan;
+    transform: translateY(-0.15em);
+    transition: all .1s ease;
+    cursor: pointer;
+}
+
+.t:hover {
+    box-shadow: 0.4em 0.4em 0.5em -0.4em darkblue;
+    transform: translateY(-0.15em);
+    transition: all .1s ease;
+    cursor: pointer;
+}
+
+@media(max-width:400px) {
+
+    .container,
+    #input,
+    .row {
+        width: 80%;
+    }
+
+    .btn,
+    #zero {
+        padding: 0.75rem;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
